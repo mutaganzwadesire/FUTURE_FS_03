@@ -1,20 +1,22 @@
 {
-  "name": "url-shortener",
+  "name": "future_03",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.11.0",
     "shortid": "^2.2.17"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
   }
 }
